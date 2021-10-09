@@ -1,6 +1,9 @@
 .bg-nav {
     background-image: linear-gradient(to right, #324555, #131B20);
 }
+.bg-car {
+    background-image: linear-gradient(to bottom, #324555, #131B20);
+}
 .color-dd{
     color: #FB683A;
 }
@@ -19,8 +22,44 @@
 .bg-btn{
     background-color: #FB683A;
 }
+.bg-label{
+    background-color: #6B757D;
+}
 .bg-btn:hover{
     background-color: #E86135;
+}
+.garis{
+    margin: auto;
+    width: 80%;
+    border: #FB683A 1px solid;
+}
+.border-iklan{
+    border-bottom: #FB683A 1px solid;
+}
+.bg-body{
+    background-color: #F0F0F0;
+}
+.bg-text{
+    background-color: #324555;
+    opacity: 80%;
+}
+.bg-text:hover{
+    color: #FB683A;
+}
+.bg-iklan{
+    background-color: #fff;
+}
+.bg-iklan:hover{
+    background-image: linear-gradient(to bottom, #324555, #131B20);
+    color: #fff;
+}
+.text-rental{
+    color: #0582DE;
+}
+.garis-rental{
+    margin: auto;
+    width: 100%;
+    border: #0582DE 1px solid;
 }
 li>ul {
     transform: translatex(100%) scale(0)
@@ -81,4 +120,8 @@ li:hover>button svg {
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #FB683A;  /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.bg-form{
+    background-color: #A0A0A0;
 }
